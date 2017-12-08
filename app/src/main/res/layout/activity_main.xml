@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple"
+    tools:context="com.kk.solution.dev.bunkmeter.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appBarLayout">
+
+        <include layout="@layout/app_bar_layout" android:id="@+id/main_page_toolbar" />
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:background="@android:color/white"
+        android:textSize="70dp"
+        android:text="WELCOME"/>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:layout_marginVertical="100sp"
+        android:layout_gravity="center_vertical"
+        android:textSize="50dp"
+        android:textStyle="bold|italic"
+        android:text="CONTINUE"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

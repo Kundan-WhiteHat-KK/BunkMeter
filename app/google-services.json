@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "714127090637",
+    "firebase_url": "https://bunkmeter-89e80.firebaseio.com",
+    "project_id": "bunkmeter-89e80",
+    "storage_bucket": "bunkmeter-89e80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714127090637:android:1f248589fd9b3ee5",
+        "android_client_info": {
+          "package_name": "com.kk.solution.dev.bunkmeter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714127090637-u07oehf664qpg82p4qo5vnfjj3rgsi51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kk.solution.dev.bunkmeter",
+            "certificate_hash": "a8fc78538767ecde4d10c454a5c2b47c72f8acfc"
+          }
+        },
+        {
+          "client_id": "714127090637-ep5e3pf5n0tn3buqnh810r5se17t28s0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyLkjW5Nb1Bc3F7As7Hr7mUKA0852vKL0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714127090637-ep5e3pf5n0tn3buqnh810r5se17t28s0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
